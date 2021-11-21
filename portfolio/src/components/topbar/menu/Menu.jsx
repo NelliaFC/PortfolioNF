@@ -17,7 +17,7 @@ export default function Menu() {
                 <a href="#testimonials">Testimonials</a>
             </li>
             <li>
-                <a href="#contact">CContact</a>
+                <a href="#contact">Contact</a>
             </li>
 
          </ul>   
