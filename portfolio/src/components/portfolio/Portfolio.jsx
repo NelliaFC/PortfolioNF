@@ -2,8 +2,56 @@ import './portfolio.scss'
 
 export default function Portfolio() {
     return (
-        <div clasName='portfolio' id='portfolio'>
-            
+        <div className='portfolio' id='portfolio'>
+        <h1>Portfolio</h1>
+        <ul>
+            <li className='active'>Featured</li>
+            <li>Web App</li>
+            <li>Mobile App</li>
+            <li>Design</li>
+            <li>Branding</li>
+        </ul>
+        <div className='container'>
+            <div className='item'>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    alt=""
+                    />
+        <h3>Designer App</h3>
         </div>
+        <div className='item'>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    alt=""
+                    />
+        <h3>Designer App</h3>
+        </div><div className='item'>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    alt=""
+                    />
+        <h3>Designer App</h3>
+        </div><div className='item'>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    alt=""
+                    />
+        <h3>Designer App</h3>
+        </div><div className='item'>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    alt=""
+                    />
+        <h3>Designer App</h3>
+        </div><div className='item'>
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    alt=""
+                    />
+        <h3>Designer App</h3>
+        </div>
+        </div> 
+        </div>   
+        
     )
 }
