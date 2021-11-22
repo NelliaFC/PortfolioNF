@@ -44,13 +44,15 @@
             width: 220px;
             height: 150px;
             border-radius: 20px;
-            border: 1px solid oldlace;
+            border: 1px solid rgb(245, 229, 200);
             margin: 10px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: white;
             position: relative;
+            transition: all .5s ease-in-out;cursor: pointer;
+            cursor: pointer;
 
             h3{
                 position: absolute;
@@ -63,7 +65,12 @@
                 z-index: 1;
             }
             &:hover{
-                
+                background-color: $mainColor;
+                img{
+                    opacity: 0.2;
+                    z-index:0;
+                }
+
             }
 
         }
