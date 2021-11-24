@@ -1,6 +1,6 @@
 
 
-export const mobilePortfolio = [
+export const featuredPortfolio = [
     {
         id: 1,
         title: "mobile Social Media App",

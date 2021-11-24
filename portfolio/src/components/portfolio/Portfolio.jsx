@@ -6,12 +6,12 @@ import {
   webPortfolio,
   mobilePortfolio,
   designPortfolio,
-  contenPortfolio,
-} from '../../data.js'
+  contentPortfolio,
+} from '../../data'
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("featured");
-  const[data, setData] = useState([])
+  const [data, setData] = useState([])
 
     const list =[
         {
@@ -73,46 +73,17 @@ export default function Portfolio() {
           ))}
         </ul>
         <div className='container'>
+        {data.map((d) => (
             <div className='item'>
                 <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
+                    src={d.img}
                     alt=""
                     />
-        <h3>Designer App</h3>
-        </div>
-        <div className='item'>
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
-                    alt=""
-                    />
-        <h3>Designer App</h3>
-        </div><div className='item'>
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
-                    alt=""
-                    />
-        <h3>Designer App</h3>
-        </div><div className='item'>
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
-                    alt=""
-                    />
-        <h3>Designer App</h3>
-        </div><div className='item'>
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
-                    alt=""
-                    />
-        <h3>Designer App</h3>
-        </div><div className='item'>
-                <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPaHLRNenlMHvkxDDfp2kKiSZY_zSr0-50g&usqp=CAU"
-                    alt=""
-                    />
-        <h3>Designer App</h3>
-        </div>
-        </div> 
-        </div>   
+        <h3>{d.title}</h3>
+              </div>
+        ))}
+            </div> 
+          </div>   
         
-    )
+    );
 }
