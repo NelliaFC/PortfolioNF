@@ -14,6 +14,7 @@ export default function Works() {
                     <p>Lorem ipsum dolor sit amet, consectetur adip
                     Lorem Ipsum
                     </p>
+                    <span>Projects</span>
                     </div>
                     </div>
                     <div className="right"></div>
