@@ -1,5 +1,5 @@
 @import "../../global.scss";
-import 
+
 
 .works {
   background-color: crimson;
@@ -106,6 +106,7 @@ import
             }
             p {
               font-size: 13px;
+              display:none;
               @include mobile{
                 display: none;
               }

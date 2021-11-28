@@ -7,5 +7,5 @@ export default function PortfolioList({id, title, active, setSelected}) {
         onClick={() => setSelected(id)}>
         {title}
         </li>
-    )
+    );
 }
