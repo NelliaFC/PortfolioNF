@@ -10,7 +10,7 @@ export default function Testimonials() {
         "https://images.unsplash.com/photo-1522410818928-5522dacd5066?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG9iYmllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+        "Things I do. Things I like and other creative endeavors.",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ export default function Testimonials() {
         "https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d3JpdGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
       icon: "assets/linkedin.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "Spilled thoughts of a modern mind. A meditation on words, ideas and experiences",
     },
   ];
   return (
