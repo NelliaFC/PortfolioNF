@@ -78,6 +78,7 @@ export default function Portfolio() {
                 <img
                     src={d.img}
                     alt=""
+                    
                     />
         <h3>{d.title}</h3>
               </div>
