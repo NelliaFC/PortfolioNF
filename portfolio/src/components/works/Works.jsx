@@ -81,7 +81,5 @@ export default function Works() {
         onClick={() => handleClick()}
       />
     </div>
-    
-
   );
 }
