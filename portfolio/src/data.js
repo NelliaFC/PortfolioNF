@@ -4,19 +4,22 @@ export const featuredPortfolio = [
     {
         id: 1,
         title: "Move It! App",
-        img: "https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFwc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+        img: "https://images.unsplash.com/photo-1516546453174-5e1098a4b4af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFwc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        link: "https://intense-peak-73506.herokuapp.com/"
     },
 
     {
       id:2,
       title: "Art Space ",
       img: "https://images.unsplash.com/photo-1600508774764-4ce704363d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YXJ0JTIwc3BhY2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+      link: "https://intense-peak-73506.herokuapp.com/"
   },
 
     {
         id:3,
         title: "Cactus Baby ",
         img: "https://images.unsplash.com/photo-1620955206264-a5b902a907fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHN1Y2N1bGVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        link: "https://intense-peak-73506.herokuapp.com/"
     },
 
 

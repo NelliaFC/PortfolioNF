@@ -55,7 +55,9 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span 
+                 
+                  > <a href="https://intense-peak-73506.herokuapp.com/"> Projects</a></span>
                 </div>
               </div>
               <div className="right">
